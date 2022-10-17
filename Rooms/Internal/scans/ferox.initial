@@ -1,0 +1,60 @@
+200      GET      375l      964w    10918c http://10.10.66.65/
+
+301      GET        9l       28w      309c http://10.10.66.65/blog => http://10.10.66.65/blog/
+
+301      GET        9l       28w      315c http://10.10.66.65/javascript => http://10.10.66.65/javascript/
+
+301      GET        9l       28w      315c http://10.10.66.65/phpmyadmin => http://10.10.66.65/phpmyadmin/
+
+301      GET        9l       28w      314c http://10.10.66.65/wordpress => http://10.10.66.65/wordpress/
+
+403      GET        9l       28w      276c http://10.10.66.65/phpmyadmin/libraries
+
+301      GET        9l       28w      322c http://10.10.66.65/phpmyadmin/themes => http://10.10.66.65/phpmyadmin/themes/
+
+403      GET        9l       28w      276c http://10.10.66.65/phpmyadmin/templates
+
+301      GET        9l       28w      325c http://10.10.66.65/wordpress/wp-content => http://10.10.66.65/wordpress/wp-content/
+
+301      GET        9l       28w      326c http://10.10.66.65/wordpress/wp-includes => http://10.10.66.65/wordpress/wp-includes/
+
+301      GET        9l       28w      323c http://10.10.66.65/wordpress/wp-admin => http://10.10.66.65/wordpress/wp-admin/
+
+301      GET        9l       28w      330c http://10.10.66.65/wordpress/wp-includes/css => http://10.10.66.65/wordpress/wp-includes/css/
+
+301      GET        9l       28w      332c http://10.10.66.65/wordpress/wp-admin/includes => http://10.10.66.65/wordpress/wp-admin/includes/
+
+301      GET        9l       28w      333c http://10.10.66.65/wordpress/wp-includes/assets => http://10.10.66.65/wordpress/wp-includes/assets/
+
+301      GET        9l       28w      333c http://10.10.66.65/wordpress/wp-includes/blocks => http://10.10.66.65/wordpress/wp-includes/blocks/
+
+301      GET        9l       28w      319c http://10.10.66.65/phpmyadmin/sql => http://10.10.66.65/phpmyadmin/sql/
+
+301      GET        9l       28w      332c http://10.10.66.65/wordpress/wp-includes/fonts => http://10.10.66.65/wordpress/wp-includes/fonts/
+
+301      GET        9l       28w      336c http://10.10.66.65/wordpress/wp-includes/customize => http://10.10.66.65/wordpress/wp-includes/customize/
+
+401      GET       14l       54w      458c http://10.10.66.65/phpmyadmin/setup
+
+301      GET        9l       28w      322c http://10.10.66.65/javascript/jquery => http://10.10.66.65/javascript/jquery/
+
+301      GET        9l       28w      334c http://10.10.66.65/wordpress/wp-includes/widgets => http://10.10.66.65/wordpress/wp-includes/widgets/
+
+301      GET        9l       28w      322c http://10.10.66.65/phpmyadmin/locale => http://10.10.66.65/phpmyadmin/locale/
+
+301      GET        9l       28w      325c http://10.10.66.65/phpmyadmin/locale/de => http://10.10.66.65/phpmyadmin/locale/de/
+
+301      GET        9l       28w      325c http://10.10.66.65/phpmyadmin/locale/fr => http://10.10.66.65/phpmyadmin/locale/fr/
+
+301      GET        9l       28w      335c http://10.10.66.65/wordpress/wp-includes/css/dist => http://10.10.66.65/wordpress/wp-includes/css/dist/
+
+200      GET    10253l    40948w   268026c http://10.10.66.65/javascript/jquery/jquery
+
+301      GET        9l       28w      325c http://10.10.66.65/phpmyadmin/locale/es => http://10.10.66.65/phpmyadmin/locale/es/
+
+301      GET        9l       28w      329c http://10.10.66.65/wordpress/wp-admin/maint => http://10.10.66.65/wordpress/wp-admin/maint/
+
+301      GET        9l       28w      325c http://10.10.66.65/phpmyadmin/locale/nl => http://10.10.66.65/phpmyadmin/locale/nl/
+
+301      GET        9l       28w      325c http://10.10.66.65/phpmyadmin/locale/pt => http://10.10.66.65/phpmyadmin/locale/pt/
+

@@ -1,0 +1,6 @@
+/.hta                 (Status: 403) [Size: 292]
+/.htaccess            (Status: 403) [Size: 297]
+/.htpasswd            (Status: 403) [Size: 297]
+/images               (Status: 301) [Size: 315] [--> http://10.10.100.134/images/]
+/index.php            (Status: 200) [Size: 4502]
+/server-status        (Status: 403) [Size: 301]

@@ -1,0 +1,46 @@
+Intro to C2 (Command and Control) 
+
+Command and Control Server: Server handling many revserse connections to it 
+
+Metasploit is a C2 server that generates its call back payload with msfvenom 
+
+Basic layout is agents on victims connecting back to c2 server which the attacker has a single connection to 
+
+Obfuscating results by sleeping the call back time and adding on extra random time, this is reffered to as a jitter 
+
+ 
+Payload types 
+
+Stageless Payloads 
+
+    Payload begins beaconing back as soon as it is on the Victom machine 
+
+Stages Payloads 
+
+    The initial payload that is on the victim machine is the dropper which is a payload that is just meant to reach back to the c2 server to retrieve the real payload, or parts of the real payload 
+
+Post exploitation 
+
+    Runner sharphound.ps1 
+
+Pivoting Modules 
+
+    Configure the initial target to act as a proxy, launch more attack through the proxy, and establish connections through the proxy 
+
+    Smb beacon 
+
+ 
+
+Common C2 Frameworks 
+
+Metasploit, Empire/starkiller, cobalt strike 
+
+
+Command and Control Redirects  
+
+What is a redirector: a loadbalancer inbetween your victim connections and your c2 server
+
+If a network you are in will flag a c2 server you can position the redirecter inside the network reaching
+out to your c2 server outside the network
+
+

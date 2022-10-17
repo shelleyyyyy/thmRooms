@@ -1,0 +1,4 @@
+aubreanna:bubb13guM!@#123
+
+jenkins creds
+8080][http-post-form] host: localhost   login: admin   password: spongebob

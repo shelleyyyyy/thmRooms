@@ -1,0 +1,11 @@
+# Nmap 7.92 scan initiated Wed Jun  8 20:42:48 2022 as: nmap -sV -o scans/nmap.initial 10.10.12.108
+Nmap scan report for 10.10.12.108
+Host is up (0.096s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT    STATE  SERVICE  VERSION
+22/tcp  closed ssh
+80/tcp  open   http     Apache httpd
+443/tcp open   ssl/http Apache httpd
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Jun  8 20:43:18 2022 -- 1 IP address (1 host up) scanned in 30.81 seconds

@@ -1,0 +1,16 @@
+┌──(willi㉿ubuntu)-[~/Documents/Rooms/hacked]
+└─$ john --wordlist=/usr/share/wordlists/fasttrack.txt hashs     
+
+Created directory: /home/willi/.john
+Using default input encoding: UTF-8
+Loaded 5 password hashes with 5 different salts (sha512crypt, crypt(3) $6$ [SHA512 512/512 AVX512BW 8x])
+Cost 1 (iteration count) is 5000 for all loaded hashes
+Will run 8 OpenMP threads
+Press 'q' or Ctrl-C to abort, almost any other key for status
+secret12         (bee)     
+abcd123          (szymex)     
+1qaz2wsx         (muirland)     
+secuirty3        (paradox)     
+4g 0:00:00:00 DONE (2022-05-25 00:27) 50.00g/s 2775p/s 13875c/s 13875C/s Spring2017..starwars
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed. 

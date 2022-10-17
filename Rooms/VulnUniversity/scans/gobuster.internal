@@ -1,0 +1,6 @@
+http://10.10.184.207:3333/internal/.hta                 (Status: 403) [Size: 303]
+http://10.10.184.207:3333/internal/.htaccess            (Status: 403) [Size: 308]
+http://10.10.184.207:3333/internal/.htpasswd            (Status: 403) [Size: 308]
+http://10.10.184.207:3333/internal/css                  (Status: 301) [Size: 328] [--> http://10.10.184.207:3333/internal/css/]
+http://10.10.184.207:3333/internal/index.php            (Status: 200) [Size: 525]
+http://10.10.184.207:3333/internal/uploads              (Status: 301) [Size: 332] [--> http://10.10.184.207:3333/internal/uploads/]
