@@ -6,7 +6,7 @@ import struct
 def p32(data):
 	return struct.pack("<I", data)
 
-host, port = "10.10.205.99", 1337
+host, port = "10.10.49.145", 1337
 
 all_chars = bytearray(range(1, 256))
 bar_chars = [
